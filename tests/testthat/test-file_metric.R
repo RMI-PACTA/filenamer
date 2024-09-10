@@ -3,5 +3,5 @@ test_that("matches lowercase vowels", {
 })
 
 test_that("matches uppercase vowels", {
-  expect_equal(file_metric("A cat in the hat"), 5)
+  expect_equal(file_metric("A CAT IN THE HAT"), 5)
 })
